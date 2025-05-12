@@ -1,0 +1,32 @@
+2025-05-09 09:52:11,373 | INFO | Début traitement utilisateur : Addition de deux nombres
+2025-05-09 09:52:11,373 | INFO | Chargement du script : Addition de deux nombres
+2025-05-09 09:52:11,376 | INFO | Script exécuté avec succès : Addition de deux nombres
+2025-05-09 09:59:14,544 | INFO | Début traitement utilisateur : Analyse d'Émotion
+2025-05-09 09:59:14,547 | INFO | Chargement du script : Analyse d'Émotion
+2025-05-09 09:59:14,616 | ERROR | Erreur API Twinword : expected string or bytes-like object, got 'NoneType'
+2025-05-09 09:59:14,638 | ERROR | Erreur API Twinword : expected string or bytes-like object, got 'NoneType'
+2025-05-09 09:59:14,661 | ERROR | Erreur API Twinword : expected string or bytes-like object, got 'NoneType'
+2025-05-09 09:59:14,662 | INFO | Quota atteint. Arrêt du traitement.
+2025-05-09 09:59:14,670 | INFO | Analyse terminée. Fichier écrit : C:/Users/smaha/Downloads/analysé.csv
+2025-05-09 09:59:14,670 | INFO | Script exécuté avec succès : Analyse d'Émotion
+2025-05-09 10:01:54,679 | INFO | Début traitement utilisateur : Analyse d'Émotion
+2025-05-09 10:01:54,680 | INFO | Chargement du script : Analyse d'Émotion
+2025-05-09 10:02:03,012 | INFO | Quota atteint. Arrêt du traitement.
+2025-05-09 10:02:03,017 | INFO | Analyse terminée. Fichier écrit : C:/Users/smaha/Downloads/analysé.csv
+2025-05-09 10:02:03,017 | INFO | Script exécuté avec succès : Analyse d'Émotion
+2025-05-09 10:08:17,527 | INFO | Début traitement utilisateur : Traduction vers l'anglais
+2025-05-09 10:08:17,528 | INFO | Chargement du script : Traduction vers l'anglais
+2025-05-09 10:17:30,019 | WARNING | Erreur de traduction : No features in text.
+2025-05-09 10:26:23,657 | INFO | Traduction terminée. Fichier écrit : C:/Users/smaha/Downloads/traduit.csv
+2025-05-09 10:26:23,657 | INFO | Script exécuté avec succès : Traduction vers l'anglais
+2025-05-09 10:27:25,211 | INFO | Début traitement utilisateur : Traduction vers l'anglais
+2025-05-09 10:30:12,663 | INFO | Début traitement utilisateur : Traduction vers l'anglais
+2025-05-09 10:30:12,665 | INFO | Chargement du script : Traduction vers l'anglais
+2025-05-09 10:54:23,299 | INFO | Début traitement utilisateur : Scraper d'actualités GNews
+2025-05-09 10:54:23,299 | INFO | Chargement du script : Scraper d'actualités GNews
+2025-05-09 10:58:02,621 | INFO | Début traitement utilisateur : Scraper d'actualités GNews
+2025-05-09 10:58:11,398 | INFO | Début traitement utilisateur : Scraper d'actualités GNews
+2025-05-09 10:58:11,398 | INFO | Chargement du script : Scraper d'actualités GNews
+2025-05-09 10:58:11,971 | INFO | Scraping du 2024-01-01 au 2024-01-08
+2025-05-09 10:58:28,750 | INFO | Scraping terminé. Résultats dans : C:/Users/smaha/Downloads/jean2.csv
+2025-05-09 10:58:28,750 | INFO | Script exécuté avec succès : Scraper d'actualités GNews

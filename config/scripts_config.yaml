@@ -1,0 +1,48 @@
+#- name: Addition de deux nombres
+#  module: scripts.script_addition
+#  class: AdditionScript
+#  input_required: false
+#  parameters:
+#    a:
+#      type: float
+#      default: 0.0
+#      help: Premier nombre
+#    b:
+#      type: float
+#      default: 0.0
+#      help: Deuxième nombre
+
+
+- name: Analyse d'Émotion
+  module: scripts.emotion_analysis
+  class: EmotionAnalysis
+  input_required: true
+  parameters:
+    max_requests:
+      type: int
+      default: 1000
+      help: Nombre maximum de requêtes API à effectuer
+
+- name: Traduction vers l'anglais
+  module: scripts.translate_to_english
+  class: TranslateToEnglish
+  input_required: true
+  parameters: {}
+
+- name: Scraper d'actualités GNews
+  module: scripts.news_scraper
+  class: NewsScraper
+  input_required: false
+  parameters:
+    start_date:
+      type: string
+      default: "2024-01-01"
+      help: Date de début (format AAAA-MM-JJ)
+    end_date:
+      type: string
+      default: "2024-01-08"
+      help: Date de fin (format AAAA-MM-JJ)
+    keyword:
+      type: string
+      default: "Maroc"
+      help: Mot-clé à rechercher
